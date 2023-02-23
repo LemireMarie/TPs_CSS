@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+body h1 h2 h3 {
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 1150px;
+    margin: auto;   
+}
+
+h1 {
+    color: #359E7B;
+}
+
+header {
+    max-width: 1150px;
+    margin: auto;
+}
+
+h1 h2 {
+    margin: 50px auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
+h2 h3 {
+    color: #006083;
+}
+
+.dateTime {
+    color: grey;
+    font-weight: bold;
+}
+
+article a {
+    display: block;
+    block-size: fit-content;
+    margin-left: auto;
+    color: #359E7B;
+}
+
+footer a:first-of-type {
+    display: block;
+    background-color: #359E7B;
+    max-width: 250px;
+    color: #ffffff;
+    padding: 15px;
+    margin: 40px auto 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a:last-of-type {
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+}
+
+form input {
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px #359E7B;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#message {
+    resize: none;
+    height: 300px;
+    border: 2px #359E7B;
+}
+
+form .envoi {
+    background-color: #359E7B;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
